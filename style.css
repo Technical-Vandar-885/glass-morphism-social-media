@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(217deg, rgba(255, 4, 4, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(182, 2, 158, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(255, 153, 0, 0.8), rgba(0,0,255,0) 70.71%);
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.5));
+    margin: 15px;
+    display: inline-block;
+    place-items: center;
+}
+.box i{
+    margin: 25px 30px;
+    font-size: 45px;
+    
+}
+.fa-facebook{
+    color: #0a54f3;
+}
+.fa-linkedin{
+    color: #007bb6;
+}
+.fa-instagram{
+    color: #c32aa3;
+}
+.fa-twitter{
+    color: #00aced;
+}
+
+.fa-youtube{
+
+    color: #ff0000;
+}
